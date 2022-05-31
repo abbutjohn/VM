@@ -314,8 +314,7 @@
         <scene sceneID="tPi-Ab-5gV">
             <objects>
                 <navigationController title="Peoples" automaticallyAdjustsScrollViewInsets="NO" id="xeW-a4-b7S" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="People" image="person" catalog="system" id="UL6-bn-sFX">
-                        <imageReference key="largeContentSizeImage" image="person" catalog="system" symbolScale="large"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" id="UL6-bn-sFX">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="string" keyPath=" accessibilityIdentifier" value="people_Tab"/>
                         </userDefinedRuntimeAttributes>
@@ -338,8 +337,8 @@
         <scene sceneID="qwb-3I-RSH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yqv-X8-1Mp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Rooms" image="square.grid.3x2" catalog="system" id="1Eh-KK-aC2">
-                        <imageReference key="largeContentSizeImage" image="square.grid.3x2" catalog="system" symbolScale="large"/>
+                    <tabBarItem key="tabBarItem" title="Rooms" image="room" selectedImage="room" id="1Eh-KK-aC2">
+                        <imageReference key="largeContentSizeImage" image="room" symbolScale="large"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="string" keyPath=" accessibilityIdentifier" value="rooms_Tab"/>
                         </userDefinedRuntimeAttributes>
@@ -360,8 +359,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="person" catalog="system" width="128" height="117"/>
-        <image name="square.grid.3x2" catalog="system" width="128" height="80"/>
+        <image name="room" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
