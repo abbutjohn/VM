@@ -314,7 +314,7 @@
         <scene sceneID="tPi-Ab-5gV">
             <objects>
                 <navigationController title="Peoples" automaticallyAdjustsScrollViewInsets="NO" id="xeW-a4-b7S" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Contacts" id="UL6-bn-sFX">
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="UL6-bn-sFX">
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="string" keyPath=" accessibilityIdentifier" value="people_Tab"/>
                         </userDefinedRuntimeAttributes>

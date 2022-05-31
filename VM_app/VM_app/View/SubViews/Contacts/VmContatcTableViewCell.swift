@@ -16,7 +16,15 @@ class VmContatcTableViewCell: UITableViewCell {
     var avatarUrl: String!{
         
         didSet {
-            self.avatarImageView.load(urlString: avatarUrl)
+            
+            if avatarUrl != nil {
+                
+                self.avatarImageView.load(urlString: avatarUrl)
+            }
+            else{
+                
+                self.avatarImageView.image = UIImage(named: "default")
+            }
         }
     }
     
